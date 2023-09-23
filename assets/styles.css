@@ -104,8 +104,10 @@ header a{
 
 .AM-flexbox{
   display: flex;
-  flex-wrap: ;
+  flex-wrap: wrap ;
   justify-content: center;
+  margin-top: 50px;
+  justify-content: space-between;
 }
 /* 
 .restaurant-listing {
