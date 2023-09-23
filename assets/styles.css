@@ -150,7 +150,7 @@ header a{
   width: 80%;
   display: grid;
   grid-template-columns: 1fr repeat(3, 2fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-rows: repeat(14, 1fr);
   gap: 10px 10px;
 }
 
@@ -167,9 +167,9 @@ header a{
 }
 .refactor{
   grid-column-start: 2;
-  grid-column-end: 6;
+  grid-column-end: 5;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 6;
   background-image: url("./images/Screenshot\ 2023-09-20\ 193436.png");
   background-size: cover;
   display: flex; 
@@ -179,5 +179,91 @@ header a{
   text-align: left;
   border: .25vw solid var(--h-text-);
 }
+.uncoming-project{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  background-image: url("./images/placeholder.png");
+  background-size: cover;
+  display: flex; 
+  align-items: flex-end;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid var(--h-text-);
+}
 
+.uncoming-project-2{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  background-image: url("./images/placeholder.png");
+  background-size: cover;
+  display: flex; 
+  align-items: flex-end;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid var(--h-text-);
+}
+.uncoming-project-3{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  background-image: url("./images/placeholder.png");
+  background-size: cover;
+  display: flex; 
+  align-items: flex-end;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid var(--h-text-);
+}
+.uncoming-project-4{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  background-image: url("./images/placeholder.png");
+  background-size: cover;
+  display: flex; 
+  align-items: flex-end;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid var(--h-text-);
+}
+
+.uncoming-project-5{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  background-image: url("./images/placeholder.png");
+  background-size: cover;
+  display: flex; 
+  align-items: flex-end;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid var(--h-text-);
+}
+
+.uncoming-project-6{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  background-image: url("./images/placeholder.png");
+  background-size: cover;
+  display: flex; 
+  align-items: flex-end;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid var(--h-text-);
+}
 
