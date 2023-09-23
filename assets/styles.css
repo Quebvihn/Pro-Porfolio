@@ -42,7 +42,12 @@ header a{
     border-bottom: 3px solid var(--h-text-);
     color: var(--h-text-);
 }
-  
+  h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+  } 
   .span {
     margin-top: 10px;
     margin-bottom: 20px;}
@@ -50,6 +55,11 @@ header a{
   .tag{
     background-color:var(--name-tag) ;
     position: relative;
+    line-height: 1.5px;
+    border-radius: 10% ;
+    padding-left: 10px;
+    padding-right: 10px;
+
   }
 
 .effects a:hover{
