@@ -6,6 +6,7 @@
 :root{
     --header-color: rgb(87, 142, 206);
     --h-text-color: rgb(0, 0, 0);
+    --h-text-: rgb(0, 0, 0);
    
 
 
@@ -33,7 +34,14 @@ header {
     margin-top: 5px;
     margin-bottom: 10px;
   }
-
+header a{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 3px solid var(--h-text-);
+    color: var(--h-text-);
+}
   
   .span {
     margin-top: 10px;
@@ -48,4 +56,33 @@ header {
         linear-gradient(
          0deg, blue, green 40%, red
     );
-}
+}/*
+.restaurant-listing {
+    position: relative;
+    width: 41%;
+    height: min-content;
+    background: var(--header-color);
+    margin: 2%;
+    padding-left: 2%;
+    transition: box-shadow 1s;
+    z-index: 1;
+  }
+  .restaurant-listing:hover{
+    box-shadow: 5px 5px 5px 1px #0000007a;
+  }
+  .restaurant-listing::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(172,80,242);
+    background: linear-gradient(20deg, rgba(172,80,242,1) 15%, rgba(43,171,197,1) 87%);
+    transition: opacity 0.5s linear;
+    z-index: -1;
+    opacity: 0;
+  }
+  .restaurant-listing:hover::before {
+    opacity: 1;
+  }*/
