@@ -7,7 +7,7 @@
     --header-color: rgb(87, 142, 206);
     --h-text-color: rgb(0, 0, 0);
     --h-text-: rgb(0, 0, 0);
-   
+    --name-tag: rgb(247, 46, 187);
 
 
 }
@@ -47,6 +47,11 @@ header a{
     margin-top: 10px;
     margin-bottom: 20px;}
 
+  .tag{
+    background-color:var(--name-tag) ;
+    position: relative;
+  }
+
 .effects a:hover{
     color:var(--h-text-color)
     
@@ -56,7 +61,8 @@ header a{
         linear-gradient(
          0deg, blue, green 40%, red
     );
-}/*
+}
+/* 
 .restaurant-listing {
     position: relative;
     width: 41%;
