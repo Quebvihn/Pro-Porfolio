@@ -14,3 +14,16 @@ header {
     list-style: none;
     background-color: var(--header-color); 
   }
+  header h1{
+    padding-left: 50px;
+  }
+  header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  header nav ul li{
+    font-size: 1.5vw ;
+  }
