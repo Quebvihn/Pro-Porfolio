@@ -26,4 +26,8 @@ header {
   }
   header nav ul li{
     font-size: 1.5vw ;
+    padding: 10px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
   }
