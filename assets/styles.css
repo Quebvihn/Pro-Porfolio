@@ -5,9 +5,9 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 :root{
-    --header-color: rgb(87, 142, 206);
-    --h-text-color: rgb(0, 0, 0);
-    --h-text-: rgb(0, 0, 0);
+    --header-color: rgb(0, 0, 0);
+    --h-text-color: rgb(250, 0, 0);
+    --h-text-: rgb(249, 1, 63);
     --name-tag: rgb(255, 255, 255);
 
 
@@ -54,7 +54,7 @@ header a{
     margin-bottom: 20px;}
 
   .tag{
-    background-color:var(--name-tag) ;
+    background-color:var(--h-text-) ;
     position: relative;
     line-height: 1.5px;
     border-radius: 10% ;
@@ -75,7 +75,20 @@ header a{
 }
 .hero{
   background-image: url(./images/hero.png);
-  height: 250px;
+  height: 325px;
+  background-size: cover; 
+  background-position:  100% 13%;
+  background-attachment: fixed; 
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.quote{
+  padding-bottom: 15px;
+  padding-right: 15px;
 }
 /* 
 .restaurant-listing {
