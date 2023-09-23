@@ -140,13 +140,21 @@ header a{
 
 .W-title{
     padding-top: 10px;
-    font-size: 35px;
+    font-size: 40px;
     grid-row: 1 / span 9;
     text-align: right;
     padding-right: 10px;
     border-right: 2px solid var(--h-text-);}
 
-/* 
+.W-grid{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 2fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 10px 10px;
+}
+
+/*
 .restaurant-listing {
     position: relative;
     width: 41%;
