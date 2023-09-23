@@ -56,7 +56,6 @@ header a{
     background-color:var(--h-text-) ;
     position: relative;
     line-height: 1.5px;
-    border-radius: 10% ;
     padding-left: 10px;
     padding-right: 10px;
 
@@ -96,12 +95,11 @@ header a{
   line-height: 1.5;
   padding-left: 8px;
   padding-right: 8px;
-  border-radius: 5%;
   opacity: .8;
 }
 .hero-text{
   opacity: .95;
-  font-size: 30px;
+  font-size: 50px;
 }
 /* 
 .restaurant-listing {
