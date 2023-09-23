@@ -154,35 +154,30 @@ header a{
   gap: 10px 10px;
 }
 
+.work-boxes{
+  background-color: var(--h-text-);
+  position: relative;
+  line-height: 1.5;
+  padding-left: 8px;
+  padding-right: 8px;
+  opacity: .8;
+}
+.lower-text {
+  font-size: x-small;
+}
+.refactor{
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url("./images/Screenshot\ 2023-09-20\ 193436.png");
+  background-size: cover;
+  display: flex; 
+  align-items: flex-end;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid var(--h-text-);
+}
 
 
-/*
-.restaurant-listing {
-    position: relative;
-    width: 41%;
-    height: min-content;
-    background: var(--header-color);
-    margin: 2%;
-    padding-left: 2%;
-    transition: box-shadow 1s;
-    z-index: 1;
-  }
-  .restaurant-listing:hover{
-    box-shadow: 5px 5px 5px 1px #0000007a;
-  }
-  .restaurant-listing::before{
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgb(172,80,242);
-    background: linear-gradient(20deg, rgba(172,80,242,1) 15%, rgba(43,171,197,1) 87%);
-    transition: opacity 0.5s linear;
-    z-index: -1;
-    opacity: 0;
-  }
-  .restaurant-listing:hover::before {
-    opacity: 1;
-  }*/
