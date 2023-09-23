@@ -6,8 +6,7 @@
 }
 :root{
     --header-color: rgb(0, 0, 0);
-    --h-text-color: rgb(250, 0, 0);
-    --h-text-: rgb(249, 1, 63);
+    --h-text-: #f7013e;
     --name-tag: rgb(255, 255, 255);
 
 
@@ -89,6 +88,20 @@ header a{
 .quote{
   padding-bottom: 15px;
   padding-right: 15px;
+}
+
+.hero-tag{
+  background-color: var(--name-tag);
+  position: relative;
+  line-height: 1.5;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5%;
+  opacity: .8;
+}
+.hero-text{
+  opacity: .95;
+  font-size: 30px;
 }
 /* 
 .restaurant-listing {
