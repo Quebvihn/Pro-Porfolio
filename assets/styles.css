@@ -138,21 +138,21 @@ header a{
   grid-column: 2 / span 3;
   grid-row: 3 / span 2;}
 
+  .W-grid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 2fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 10px 10px;
+  }
+
 .W-title{
     padding-top: 10px;
     font-size: 40px;
-    grid-row: 1 / span 9;
+    grid-row: 1 / span 12;
     text-align: right;
     padding-right: 10px;
     border-right: 2px solid var(--h-text-);}
-
-.W-grid{
-  width: 80%;
-  display: grid;
-  grid-template-columns: 1fr repeat(3, 2fr);
-  grid-template-rows: repeat(14, 1fr);
-  gap: 10px 10px;
-}
 
 .work-boxes{
   background-color: var(--h-text-);
@@ -212,7 +212,7 @@ header a{
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 9;
-  grid-row-end: 10;
+  grid-row-end: 12;
   background-image: url("./images/placeholder.png");
   background-size: cover;
   display: flex; 
@@ -226,7 +226,7 @@ header a{
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 9;
-  grid-row-end: 10;
+  grid-row-end: 9;
   background-image: url("./images/placeholder.png");
   background-size: cover;
   display: flex; 
@@ -256,7 +256,7 @@ header a{
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 9;
-  grid-row-end: 10;
+  grid-row-end: 12;
   background-image: url("./images/placeholder.png");
   background-size: cover;
   display: flex; 
@@ -267,10 +267,24 @@ header a{
   border: .25vw solid var(--h-text-);
 }
 
-.contact-title{
-  border-right: 4px solid var(--h-text-);
+.C-grid{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 2fr);
+  grid-template-rows: repeat(3, 2fr);
+  gap: 20px 20px;}
+
+  .contact-title{
+  padding-top: 10px;
+  font-size: 35px;
   grid-row: 1 / span 3;
-  font-size: 40px;
-  text-align: end;
-  padding-right: 15px;
+  text-align: right;
+  padding-right: 10px;
+  border-right: 2px solid var(--h-text-);
 }
+.phone{
+  grid-row: 2;
+  text-align: center;
+}
+
+
