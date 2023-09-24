@@ -299,24 +299,43 @@ header a{
   display: inline-block;
   color: var(--header-color);
   width: calc(15vh - 5px);
+  border-bottom: var(--h-text-);
+}
+a {
+  color: var(--h-text-);
 }
 
-@media screen and (max-width: 980px) {
-  main,
+
+@media screen and  (max-width: 768px) {
+  header a {
+    font-size: 4vw;
+  }
+
+  header nav ul {
+    padding-right: 0px;
+    justify-content: center;
+  }
   
-  header {
-    background: var(--h-text-);
+  header nav ul li {
+    padding: 2px 2px 2px 2px;
   }
 
-  header nav ul li{
-    font-size: 1.5vw ;
-    padding: 10px 15px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    color: var(--header-color);
+  p{
+    font-size:5vw;
   }
 
+  footer a {
+    font-size: 3.5vw;
+  }
 
+  .effects a:hover{
+      
+      font-size: 4vw; 
+  }
+
+  .phone{
+    padding-left: 30px;
+  }
 }
 
 
