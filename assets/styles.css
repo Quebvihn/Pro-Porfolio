@@ -72,7 +72,7 @@ header a{
 .linear-gradient-background a:hover{
     background-image: 
         linear-gradient(
-         0deg, white, black 40%, white
+         0deg, black, #f7013e 40%, black
     );
 }
 .hero{
@@ -303,19 +303,20 @@ header a{
 
 @media screen and (max-width: 980px) {
   main,
-  nav {
-    flex-direction: column;
-  }
-  aside {
-    order: 2;
-  }
+  
   header {
-    background: #772014;
+    background: var(--h-text-);
   }
-  nav,
-  footer {
-    background-color: #bb8588;
+
+  header nav ul li{
+    font-size: 1.5vw ;
+    padding: 10px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: var(--header-color);
   }
+
+
 }
 
 
