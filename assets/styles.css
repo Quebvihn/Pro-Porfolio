@@ -306,37 +306,6 @@ a {
 }
 
 
-@media screen and  (max-width: 768px) {
-  header a {
-    font-size: 4vw;
-  }
-
-  header nav ul {
-    padding-right: 0px;
-    justify-content: center;
-  }
-  
-  header nav ul li {
-    padding: 2px 2px 2px 2px;
-  }
-
-  p{
-    font-size:5vw;
-  }
-
-  footer a {
-    font-size: 3.5vw;
-  }
-
-  .effects a:hover{
-      
-      font-size: 4vw; 
-  }
-
-  .phone{
-    padding-left: 30px;
-  }
-}
 
 
 
