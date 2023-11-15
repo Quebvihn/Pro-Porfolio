@@ -195,12 +195,12 @@ header a{
   border: .25vw solid var(--h-text-);
 }
 
-.uncoming-project-2{
+.Petconnect{
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 6;
   grid-row-end: 9;
-  background-image: url("./images/placeholder.png");
+  background-image: url("./images/Screenshot\ 2023-11-14\ 195006.png");
   background-size: cover;
   display: flex; 
   align-items: flex-end;
